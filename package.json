@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.122"
+  },
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  },
+  "scripts": {
+    "build": "swc ./src -d ./dist"
+  }
+}
